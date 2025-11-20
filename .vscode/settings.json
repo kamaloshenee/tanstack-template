@@ -1,11 +1,90 @@
-{
-  "files.watcherExclude": {
-    "**/routeTree.gen.ts": true
-  },
-  "search.exclude": {
-    "**/routeTree.gen.ts": true
-  },
-  "files.readonlyInclude": {
-    "**/routeTree.gen.ts": true
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile - Kamal Oshinee Bytes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .profile-card {
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile-card h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+    .profile-card p.title {
+      color: gray;
+      font-size: 16px;
+      margin: 5px 0 10px 0;
+    }
+    .profile-card p.bio {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .profile-card .social-icons a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      margin: 0 8px;
+      transition: color 0.3s;
+    }
+    .profile-card .social-icons a:hover {
+      color: #0073e6;
+    }
+    .profile-card button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .profile-card button:hover {
+      background-color: #005bb5;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="your-profile-photo.jpg" alt="Kamal Oshinee Bytes" />
+    <h1>Kamal Oshinee Bytes</h1>
+    <p class="title">Web Developer & AI Enthusiast</p>
+    <p class="bio">Creative coder focused on women safety management systems, agent engineering, and web development. Passionate about building seamless online experiences.</p>
+    <div class="social-icons">
+      <a href="https://github.com/yourprofile" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://twitter.com/yourprofile" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://facebook.com/yourprofile" target="_blank"><i class="fa fa-facebook"></i></a>
+    </div>
+    <button onclick="window.location.href='mailto:youremail@example.com'">Contact Me</button>
+  </div>
+</body>
+</html>
